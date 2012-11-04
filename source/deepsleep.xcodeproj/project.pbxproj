@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76FAC0486AB0100D96B5E /* deepsleep.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* deepsleep.c */; settings = {ATTRIBUTES = (); }; };
+		8DD76FB00486AB0100D96B5E /* deepsleep.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* deepsleep.1 */; };
+		9188950A092A5CD50097FBF2 /* IOPMLibPrivate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 91889508092A5CD50097FBF2 /* IOPMLibPrivate.h */; };
+		9188950B092A5CD50097FBF2 /* SCValidation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 91889509092A5CD50097FBF2 /* SCValidation.h */; };
+		91889630092A71000097FBF2 /* System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9188962F092A71000097FBF2 /* System.framework */; };
+		91889632092A71170097FBF2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91889631092A71170097FBF2 /* IOKit.framework */; };
+		918896F2092AACAF0097FBF2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 918896F1092AACAF0097FBF2 /* CoreFoundation.framework */; };
+		91889790092AACDB0097FBF2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9188978F092AACDB0097FBF2 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* deepsleep.1 in CopyFiles */,
+				9188950A092A5CD50097FBF2 /* IOPMLibPrivate.h in CopyFiles */,
+				9188950B092A5CD50097FBF2 /* SCValidation.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9124B5410F4B6ABD001BE369 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9124B5420F4B6ABD001BE369 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9124B5470F4B6B33001BE369 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* deepsleep.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deepsleep.c; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* deepsleep */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = deepsleep; sourceTree = BUILT_PRODUCTS_DIR; };
+		91889508092A5CD50097FBF2 /* IOPMLibPrivate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = IOPMLibPrivate.h; sourceTree = "<group>"; };
+		91889509092A5CD50097FBF2 /* SCValidation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SCValidation.h; sourceTree = "<group>"; };
+		9188962F092A71000097FBF2 /* System.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = System.framework; path = /System/Library/Frameworks/System.framework; sourceTree = "<absolute>"; };
+		91889631092A71170097FBF2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		918896F1092AACAF0097FBF2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		9188978F092AACDB0097FBF2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+		C6A0FF2C0290799A04C91782 /* deepsleep.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = deepsleep.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91889630092A71000097FBF2 /* System.framework in Frameworks */,
+				91889632092A71170097FBF2 /* IOKit.framework in Frameworks */,
+				918896F2092AACAF0097FBF2 /* CoreFoundation.framework in Frameworks */,
+				91889790092AACDB0097FBF2 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* deepsleep */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				9191E2FD092B92E4003739AE /* Headers */,
+				9191E1EA092B92C6003739AE /* Frameworks */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = deepsleep;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7796FE84155DC02AAC07 /* deepsleep.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* deepsleep */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9191E1EA092B92C6003739AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9188978F092AACDB0097FBF2 /* SystemConfiguration.framework */,
+				918896F1092AACAF0097FBF2 /* CoreFoundation.framework */,
+				91889631092A71170097FBF2 /* IOKit.framework */,
+				9188962F092A71000097FBF2 /* System.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9191E2FD092B92E4003739AE /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				91889508092A5CD50097FBF2 /* IOPMLibPrivate.h */,
+				91889509092A5CD50097FBF2 /* SCValidation.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* deepsleep.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* deepsleep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918893FB092A25180097FBF2 /* Build configuration list for PBXNativeTarget "deepsleep" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+				9124B5410F4B6ABD001BE369 /* CopyFiles */,
+				9124B5420F4B6ABD001BE369 /* CopyFiles */,
+				9124B5470F4B6B33001BE369 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = deepsleep;
+			productInstallPath = "$(HOME)/bin";
+			productName = deepsleep;
+			productReference = 8DD76FB20486AB0100D96B5E /* deepsleep */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 918893FF092A25180097FBF2 /* Build configuration list for PBXProject "deepsleep" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* deepsleep */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* deepsleep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E /* deepsleep.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9178F1C709533CF6007AFBF3 /* Universal */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PREBINDING = NO;
+				PRODUCT_NAME = deepsleep;
+				ZERO_LINK = NO;
+			};
+			name = Universal;
+		};
+		9178F1C809533CF6007AFBF3 /* Universal */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = macosx10.7;
+				VALID_ARCHS = x86_64;
+			};
+			name = Universal;
+		};
+		918893FC092A25180097FBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = deepsleep;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		918893FD092A25180097FBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PREBINDING = NO;
+				PRODUCT_NAME = deepsleep;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		918893FE092A25180097FBF2 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = deepsleep;
+			};
+			name = Default;
+		};
+		91889400092A25180097FBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = macosx10.7;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		91889401092A25180097FBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = macosx10.7;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		91889402092A25180097FBF2 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = macosx10.7;
+				VALID_ARCHS = x86_64;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		918893FB092A25180097FBF2 /* Build configuration list for PBXNativeTarget "deepsleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918893FC092A25180097FBF2 /* Debug */,
+				918893FD092A25180097FBF2 /* Release */,
+				9178F1C709533CF6007AFBF3 /* Universal */,
+				918893FE092A25180097FBF2 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		918893FF092A25180097FBF2 /* Build configuration list for PBXProject "deepsleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91889400092A25180097FBF2 /* Debug */,
+				91889401092A25180097FBF2 /* Release */,
+				9178F1C809533CF6007AFBF3 /* Universal */,
+				91889402092A25180097FBF2 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowSystem</key>
+	<true/>
+	<key>CFBundleDisplayName</key>
+	<string>Deep Sleep</string>
+	<key>CFBundleIdentifier</key>
+	<string>fr.beaumel.widget.deepsleep</string>
+	<key>CFBundleName</key>
+	<string>Deep Sleep</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.3</string>
+	<key>CFBundleVersion</key>
+	<string>1.3</string>
+	<key>CloseBoxInsetX</key>
+	<integer>30</integer>
+	<key>CloseBoxInsetY</key>
+	<integer>30</integer>
+	<key>MainHTML</key>
+	<string>deepsleep.html</string>
+</dict>
+</plist>
