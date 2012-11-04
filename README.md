@@ -1,6 +1,6 @@
 # Deep Sleep Widget 1.3
 
-A hibernation Dashboard widget for Mac OS X (10.7+). This version is patched to run on Mountain Lion.
+A hibernation Dashboard widget for Mac OS X. This version is patched to run on Mountain Lion.
 
 You can find the original version at:
 
