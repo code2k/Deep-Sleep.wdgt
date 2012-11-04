@@ -300,9 +300,10 @@ int main (int argc, const char * argv[])
         } else {
             target_mode = 25;
         }
-        if (debug) printf("target mode: %d\n", target_mode);
     }
-	
+
+    if (debug) printf("target mode: %d\n", target_mode);
+    
 	ps_info = IOPSCopyPowerSourcesInfo();                                                                                       /* Get the power source information */
 	if (ps_info) {
 		current_ps = IOPSGetProvidingPowerSourceType(ps_info);                                                                     /* On success, store the active power source */
