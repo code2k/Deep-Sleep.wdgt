@@ -252,7 +252,7 @@ int main (int argc, const char * argv[])
 		printf("\n");
 	}
 
-	if (major_version == 12) {
+	if (major_version >= 12) {
         os_ml = 1;
     } else if (check_os && (major_version != 8 || minor_version < 3) && (major_version <= 8)) {                                         /* If needed, check if major version is 8 (Mac OS X 10.4) and minor version is greater or equal than 3. Mac OS X 10.5 is also supported.*/
 		printf("This operating system is not supported\n");                                                                           /* On failure: quit */
